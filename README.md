@@ -28,13 +28,17 @@ Analyzed retail sales data using MySQL to understand customer behavior, sales pe
 ![Category and Regional Analysis](Screenshots/03_category_region_analysis.png)
 
 ### 4. Discount and Profit Analysis
-![Discount and Profit Analysis](Screenshots/04_discount_profit_analysis.png)
+
+![Discount and Profit Analysis](./Screenshots/04_discount_profit_analysis.png)
 
 ### 5. Customer Behavior Analysis
-![Customer Analysis](Screenshots/05_customer_analysis.png)
+
+![Customer Behavior Analysis](./Screenshots/05_customer_analysis.png)
 
 ### 6. Monthly Trend Analysis
-![Monthly Trends](Screenshots/06_monthly_trends.png)
+
+![Monthly Trend Analysis](./Screenshots/06_monthly_trends.png)
+
 
 ## 💻 SQL Concepts
 `GROUP BY` | `HAVING` | Aggregate Functions | CTEs | Subqueries | `CASE` | `RANK()` | `LAG()`
