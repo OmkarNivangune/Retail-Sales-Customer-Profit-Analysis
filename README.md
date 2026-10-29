@@ -1,22 +1,33 @@
-# 📊 Retail Sales, Customer Behavior and Profit Analysis Using SQL
+# Retail Sales, Customer Behavior and Profit Analysis Using SQL
 
 ## 📌 Project Overview
-Analyzed retail sales data using MySQL to understand customer behavior, sales performance, discount impact, and product profitability.
+Analyzed retail sales data using MySQL to understand sales performance, customer behavior, discount impact, and product profitability.
 
 ## 🛠️ Tools Used
 - MySQL
 - MySQL Workbench
 - SQL
+- GitHub
 
 ## 🎯 Key Analysis
-- Sales, profit, and profit margin analysis
-- Customer and repeat purchase analysis
+- Total sales, profit, and profit margin
 - Category and regional performance
-- Discount impact and loss-making products
+- Customer and repeat purchase analysis
+- Discount impact on profitability
+- Loss-making products and subcategories
 - Monthly sales and profit trends
-- Product and customer ranking using window functions
+- Customer and product ranking
 
-## 📸 Project Screenshots
+## 📂 Dataset
+The project uses sample synthetic retail data containing order, customer, product, sales, quantity, discount, and profit information.
+
+**CSV File:** [Download Retail Dataset](SQL/retail_profit_customer_analysis_clean(1).csv)
+
+**Database:** `retail_analysis`  
+**Table:** `sales`
+
+## 💻 SQL Concepts Used
+`SELECT` | `WHERE` | `GROUP BY` | `HAVING` | Aggregate Functions | CTEs | Subqueries | `CASE` | `RANK()` | `LAG()`
 
 ## 📸 Project Screenshots
 
@@ -35,19 +46,20 @@ Analyzed retail sales data using MySQL to understand customer behavior, sales pe
 ### 5. Monthly Trend Analysis
 ![Monthly Trends](Screenshots/05_monthly_trends.png)
 
-## 💻 SQL Concepts
-`GROUP BY` | `HAVING` | Aggregate Functions | Subqueries | `CASE` | `RANK()` 
+## 🚀 How to Run
+1. Install MySQL and open MySQL Workbench.
+2. Create a database named `retail_analysis`.
+3. Import the CSV file into a table named `sales`.
+4. Open `SQL/Retail_Sales_Customer_Profit_Analysis.sql`.
+5. Run the SQL queries and review the results.
 
-## 📂 Project Structure
-- `SQL/` — SQL analysis queries
-- `Dataset/` — Sample retail dataset
-- `Screenshots/` — SQL query outputs
+## 💡 Business Value
+Helps identify unprofitable products, evaluate discount impact, compare customer and regional performance, and discover opportunities to improve profitability.
 
-## 💡 Outcome
-Identified unprofitable products, analyzed discount-related losses, and evaluated customer and regional performance to support better business decisions.
-
-## 📁 Dataset
-Sample synthetic retail data containing order, customer, product, sales, discount, and profit information.
+## 🔮 Future Scope
+- Automate recurring SQL reports.
+- Analyze additional retail datasets.
+- Connect the results to a business intelligence tool for interactive reporting.
 
 ## 👨‍💻 Author
 **Omkar Nivangune**  
@@ -55,3 +67,6 @@ Aspiring Data Analyst
 
 **Skills:** SQL | MySQL | Data Analysis
 
+---
+
+*Portfolio project created to demonstrate SQL-based business analysis skills using sample data.*
