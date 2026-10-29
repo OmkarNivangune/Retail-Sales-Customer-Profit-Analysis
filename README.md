@@ -22,7 +22,7 @@ Analyzed retail sales data using MySQL to understand sales performance, customer
 
 The project uses a sample retail dataset containing order, customer, product, sales, discount, and profit information.
 
-📥 **[Download Retail Dataset](./SQL/retail_profit_customer_analysis_clean%281%29.csv)**
+[📥 Download Retail Dataset](./SQL/retail_profit_customer_analysis_clean.csv)
 
 - **File:** `retail_profit_customer_analysis_clean(1).csv`
 - **Database:** MySQL
