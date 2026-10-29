@@ -19,12 +19,14 @@ Analyzed retail sales data using MySQL to understand sales performance, customer
 - Customer and product ranking
 
 ## 📂 Dataset
-The project uses sample synthetic retail data containing order, customer, product, sales, quantity, discount, and profit information.
 
-**CSV File:** [Download Retail Dataset](SQL/retail_profit_customer_analysis_clean(1).csv)
+The project uses a sample retail dataset containing order, customer, product, sales, discount, and profit information.
 
-**Database:** `retail_analysis`  
-**Table:** `sales`
+📥 **[Download Retail Dataset](./SQL/retail_profit_customer_analysis_clean%281%29.csv)**
+
+- **File:** `retail_profit_customer_analysis_clean(1).csv`
+- **Database:** MySQL
+- **Table:** `sales`
 
 ## 💻 SQL Concepts Used
 `SELECT` | `WHERE` | `GROUP BY` | `HAVING` | Aggregate Functions | CTEs | Subqueries | `CASE` | `RANK()` | `LAG()`
